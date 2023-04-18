@@ -1,0 +1,58 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.global{
+    background-color:#ccc;
+    border: 0.01rem solid black;
+    max-width: 120.4rem;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+
+.global h1{
+    font-weight: 300;
+}
+.contenedor{
+    background-color: teal;
+    display: flex;
+    /* flex-direction: column; */
+    max-width: 120.4rem;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    
+    
+}
+.lab-Salida{
+    display: inline-block;
+    width: 5rem;  
+    margin-right: 2.5rem;
+}
+
+
+button{
+    min-width: 8.8rem;
+}
+
+@media screen and (max-width:1024px){
+    .item{
+        background:blue;
+    }
+}
+@media screen and (max-width:720px){
+    .item{
+        background: red;
+    }
+}
+@media screen and (max-width:480px){
+    .item{
+        background: yellow;
+    }
+}
